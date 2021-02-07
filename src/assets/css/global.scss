@@ -1,0 +1,22 @@
+html {
+  font-size: 100px;
+}
+
+#app {
+  font-size: 0.14rem;
+}
+
+@media (max-width: 575px) {
+  .ant-form-item-label {
+    line-height: 0.4rem;
+  }
+}
+
+.ant-form-item label {
+  color: white;
+}
+
+// 加载框的样式
+.userForm .ant-spin-dot-item {
+  background-color: #ffffff !important;
+}

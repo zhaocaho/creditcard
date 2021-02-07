@@ -1,5 +1,5 @@
 <template>
-  <div class="Home">
+  <div class="Login">
     <transition
       enter-active-class="animate__animated animate__fadeIn"
       leave-active-class="animate__animated animate__fadeIn"
@@ -43,7 +43,7 @@ import { FormType } from '@/types/interface'
 import { userLogin } from '@/API/user'
 
 export default defineComponent({
-  name: 'Home',
+  name: 'Login',
   components: {
     UserForm,
     Loading,
@@ -111,7 +111,7 @@ export default defineComponent({
 })
 </script>
 <style lang="scss" scoped>
-.Home {
+.Login {
   // 样式中引用@地址，需要加上~
   background: url('~@/assets/images/moneyBg.jpg') no-repeat;
   background-size: 100% 100%;
